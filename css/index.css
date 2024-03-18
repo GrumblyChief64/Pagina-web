@@ -1,4 +1,6 @@
-
+body{
+  background-color: white;
+}
 * {
     margin: 0;
     padding: 0;
@@ -142,6 +144,13 @@
   text-align: center;
 }
 
+.enlace{
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  height: 100%;
+  border: 2px solid peru ;
+}
 /* Fielsets.Info */
 #info{
   position: relative;
