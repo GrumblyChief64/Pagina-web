@@ -149,7 +149,6 @@ body{
   color: white;
   width: 100px;
   height: 100%;
-  border: 2px solid peru ;
 }
 /* Fielsets.Info */
 #info{
@@ -160,22 +159,40 @@ body{
   border-top: 1px solid black;
   width: 80%;
   padding: 5;
-
-h2,h3{ font-size: 23px;
-  border: dotted 1px black;
-  width: 400px;
-  text-align: justify;
-}
 }
 #enc{font-size: 50px;
   text-align: center;
   border: none;
 }
 #formu{ 
-  position: fixed;
+  position: absolute;
   right: 0px;
-  top: 58px;
+  top: 75px;
   border: solid black 1px;
   width: 20%;
-  height: 581px;
+  height: 430px;
+  
+}
+.titulos{
+
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.boder{
+  border-image-slice:
+403 0 450 0;
+border-image-width:
+20px 0px 20px 0px;
+border-image-outset:
+0px 0px 0px 0px;
+border-image-repeat:
+stretch stretch;
+border-image-source:
+url("https://e7.pngegg.com/pngimages/459/702/png-clipart-military-rank-chevron-computer-icons-army-military-miscellaneous-angle.png");
+border-style:
+solid;
+width: 40
 }
