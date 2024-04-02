@@ -43,7 +43,7 @@
             al igual que su mantenimiento, o los gastos a la hora de recambios, 
             pero en cambio si quieres ir algo mejor, ya que las réplicas de armas cortas suelen quedarse un poco más cortas dependiendo en el campo que juegues, te recomendamos algo más "grande y divertido" como una escopeta o un subfusil que pueda complementar tu juego.
            </p>
-            <h2 >Tu Primer equipamiento.</h2>
+            <h2 class="titulos2" >Tu Primer equipamiento.</h2>
             <p>
             En tus partidas veras a mucha gente equipada con trajes de simulación militar, pero realmente para empezar a jugar no hace falta tanta floritura. Para empezar vas a necesitar lo más básico, 
             como unas gafas que sean durillas, una mascarilla de malla para proteger los dientes y una sudadera gordita para que cualquier golpe no te duela tanto. Importante es llevar una bota que proteja el tobillo y sean cómodas para correr,
@@ -51,91 +51,29 @@
             </p>
         <h1 class="titulos">Información de Réplicas</h1>
         
-        <h3 >Réplicas Mencanicas</h3>
-
+        <h3 class="titulos2">Réplicas Mencanicas</h3>
+          <p>
         Las Réplicas Mecánicas estan constituidas mayor mente por resortes y muelles los cuales son recambios más baratos y estos se suelen gastar con mayor facilidad y frecuencia.
-        <h3 >Réplicas de CO₂</h3>
+          </p>
+        <h3 class="titulos2">Réplicas de CO₂</h3>
+        <p>
             Las Réplicas de CO₂ son réplicas que impulsan su mecanismo de disparo mediante gas, las cuales llevan normalmente un sistema interno cuando son grandes réplicas o en los cargadores una válvula para rellenarlas, la cual se va gastando con los disparos y deberas ir rellenando cada partida o cada pocas.
-        <h3 >Réplicas Eléctricas</h3>
+        </p>
+        <h3 class="titulos2">Réplicas Eléctricas</h3>
+        <p>
             Las Réplicas Eléctricas son réplicas alimentadas por baterías las cuales suelen ser las más potentes y las que más tardan en desgastarse, pero deberás tener en cuenta que debes recargarlas y llevar de repuesto por si en algún caso se desgastan en mitad de la partida
-        </div>
-          
-        <div id="formu">
-            <form>
-                  <div class="field">
-                    <label class="label">Username</label>
-                    <div class="control has-icons-left has-icons-right">
-                      <input class="input is-success" type="text" placeholder="Text input" value="Chema" required>
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                      </span>
-                      <span class="icon is-small is-right">
-                        <i class="fas fa-check"></i>
-                      </span>
-                    </div>
-                  </div>
-                  
-                  <div class="field">
-                    <label class="label">Contraseña</label>
-                    <div class="control has-icons-left has-icons-right">
-                      <input class="input is-danger" type="password" placeholder="Contraseña" value="hello@" required >
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                      </span>
-                      <span class="icon is-small is-right">
-                        <i class="fas fa-exclamation-triangle"></i>
-                      </span>
-                    </div>
-                  </div>
-                  
-                  <div class="field">
-                    <label class="label">Email</label>
-                    <div class="control has-icons-left has-icons-right">
-                      <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                      </span>
-                      <span class="icon is-small is-right">
-                        <i class="fas fa-exclamation-triangle"></i>
-                      </span>
-                    </div>
-                  </div>
-                  
-                  <div class="field">
-                    <label class="label">Fecha_Nacimiento</label>
-                    <div class="control has-icons-left has-icons-right">
-                      <input class="input is-success" type="date">
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                      </span>
-                      <span class="icon is-small is-right">
-                        <i class="fas fa-check"></i>
-                      </span>
-                    </div>
-                  
-                    
-                  
-                  <div class="field">
-                    <div class="control">
-                      <label class="checkbox">
-                        <input type="checkbox" required>
-                        I agree to the <a href="#">terms and conditions</a>
-                      </label>
-                    </div>
-                  </div>
-                  
-                
-                  
-                  <div class="field is-grouped">
-                    <div class="control">
-                      <button class="button is-link">Submit</button>
-                    </div>
-                    <div class="control">
-                      <button class="button is-link is-light">Cancel</button>
-                    </div>
-                  </div>
-        </div>
-      
-      </button>
+        </p>
+          </div>
+        
+                <button id="mostrarFormulario">Mostrar Formulario</button>
+                <form id="formulario" class="oculto">
+                  <!-- Aquí irían los campos del formulario -->
+                  <input type="text" placeholder="Nombre">
+                  <input type="email" placeholder="Email">
+                  <button type="submit">Enviar</button>
+                </form>
+              
+                <script src="/javascript/info.js"></script>
+             
     </body>
 </html>

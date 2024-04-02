@@ -157,7 +157,7 @@ body{
   font-size: 20px;
   border: 1px solid black;
   border-top: 1px solid black;
-  width: 80%;
+  width: 100vw;
   padding: 5;
 }
 #enc{font-size: 50px;
@@ -180,6 +180,10 @@ body{
   text-decoration: underline;
 
 }
+.titulos2{ 
+  font-size: 20px;
+  
+  text-decoration: underline;}
 
 .boder{
   border-image-slice:
@@ -195,4 +199,7 @@ url("https://e7.pngegg.com/pngimages/459/702/png-clipart-military-rank-chevron-c
 border-style:
 solid;
 width: 40
+}
+.oculto {
+  display: none;
 }
