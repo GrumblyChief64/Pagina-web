@@ -38,7 +38,7 @@ body{
 }
 
 .container .custome-card:hover {
-    height: 400px;
+    height: 410px;
 }
 
 .container .custome-card:hover .img-box {
@@ -80,7 +80,8 @@ body{
 
 .container .custome-card:hover .custome-content {
     top: 130px;
-    height: 250px;
+    height: 330px;
+    padding: 3px;
 }
 
 .container .custome-card .custome-content h2{
@@ -127,3 +128,15 @@ body{
         font-size: 0.9rem;
     }
 }
+
+
+
+#nave{ 
+position: absolute;
+top: 0;
+right: 10px;
+background-color: white;
+padding-top: 0px;}
+
+.btm{ width: 60px;
+height: 40px;}

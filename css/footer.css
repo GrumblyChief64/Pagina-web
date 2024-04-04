@@ -51,6 +51,7 @@ ul{
     padding-left: 7px;
 }
 .footer-col .social-links a {
+    padding-top: 12px;
     color: #fff;
     background-color: rgba(255, 255, 255, 0.2);
     display: inline-block;
